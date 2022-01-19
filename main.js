@@ -24,7 +24,7 @@ function showAlbum() {
 
 function card (i){
     const divCard = document.createElement('div');
-    divCard.className = 'card me-3';
+    divCard.className = 'card me-3 mb-4';
     divCard.id = 'card' + i.toString();
     divCard.style.width = "24rem";
     document.getElementById('galleryCard').appendChild(divCard);
